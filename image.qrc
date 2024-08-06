@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/style.qss</file>
+        <file>image/originalLeftButton.png</file>
+        <file>image/originalPlayButton.png</file>
+        <file>image/peiqi.png</file>
+        <file>image/playButton.png</file>
+        <file>image/pressLeftButton.png</file>
+        <file>image/soundIcon.png</file>
+        <file>image/volume.png</file>
+        <file>image/originalRightButton.png</file>
+        <file>image/sortPlay.png</file>
+        <file>image/randomPlay.png</file>
+        <file>image/singlePlay.png</file>
+        <file>image/musicLogo.png</file>
+    </qresource>
+</RCC>

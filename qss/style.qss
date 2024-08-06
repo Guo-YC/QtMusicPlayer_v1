@@ -1,0 +1,68 @@
+/* 设置整个窗口的背景颜色 */
+QMainWindow {
+    background-color: #2E2E2E;  /* 深灰色背景 */
+    color: #FFFFFF;  /* 白色字体 */
+}
+
+/* 设置标签的样式 */
+QLabel {
+    color: #FFFFFF;  /* 白色字体 */
+    font-size: 14px;
+    text-align: center;
+}
+
+/* 设置按钮的样式 */
+QPushButton {
+    //background-color: transparent; 
+    //border: none;
+    //border: 0px solid #555555;
+    //border-radius: 0px;
+    //padding: 0px;
+}
+
+
+/* 设置滑动条的样式 */
+QSlider::groove:horizontal {
+    border: 1px solid #444444;
+    height: 8px;
+    background: #444444;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #FF5E3A;  /* 红色滑动条 */
+    border: 1px solid #444444;
+    width: 14px;
+    margin: -2px 0;
+    border-radius: 4px;
+}
+
+QSlider::groove:vertical {
+    border: 1px solid #444444;
+    width: 8px;
+    background: #444444;
+    margin: 0 2px;
+}
+
+QSlider::handle:vertical {
+    background: #FF5E3A;  /* 红色滑动条 */
+    border: 1px solid #444444;
+    height: 14px;
+    margin: 0 -2px;
+    border-radius: 4px;
+}
+
+/* 设置表格视图的样式 */
+QTableView {
+    background-color: #333333;  /* 深灰色背景 */
+    alternate-background-color: #444444;  /* 交替行颜色 */
+    gridline-color: #555555;  /* 网格线颜色 */
+    color: #FFFFFF;  /* 白色字体 */
+}
+
+QHeaderView::section {
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 4px;
+    border: 1px solid #555555;
+}
