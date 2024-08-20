@@ -124,7 +124,7 @@ Qt HTTP音乐播放器采用了MVC（模型-视图-控制器）架构模式，�
 
 文件路径：`src/UML_class.png`
 
-![UML类图](src\UML_class.png)
+![UML类图](src/UML_class.png)
 
 
 
@@ -133,9 +133,9 @@ Qt HTTP音乐播放器采用了MVC（模型-视图-控制器）架构模式，�
 
 通过时序图，展示了从用户发起播放命令到音乐输出的完整流程，包括用户界面如何与后端逻辑交互，以及网络模块如何响应音乐播放请求。
 
-文件路径：`src\UML_Time.png`
+文件路径：`src/UML_Time.png`
 
-![UML时序图](src\UML_Time.png)
+![UML时序图](src/UML_Time.png)
 
 
 
