@@ -5,7 +5,6 @@
 ## 0、视频展示
 
 
-<iframe height=345 width=470  src="src/QtMusicPlay4.mp4">
 
 视频文件路径：`src/QtMusicPlay4.mp4`
 
@@ -115,7 +114,7 @@ Qt HTTP音乐播放器采用了MVC（模型-视图-控制器）架构模式，�
 
 界面右侧为获取的在线歌曲列表
 
-![](src/image.PNG)
+![](src/image.png)
 
 ## 四、技术细节
 
@@ -123,9 +122,9 @@ Qt HTTP音乐播放器采用了MVC（模型-视图-控制器）架构模式，�
 
 详细分析了KMainWindow、KMediaPlayerManager、KSongTableModel等关键类的职责和相互关系，强调了如何通过分层的设计模式降低各模块之间的耦合度。
 
-文件路径：`src/UML_class.PNG`
+文件路径：`src/UML_class.png`
 
-![UML类图](src\UML_class.PNG)
+![UML类图](src\UML_class.png)
 
 
 
@@ -134,9 +133,9 @@ Qt HTTP音乐播放器采用了MVC（模型-视图-控制器）架构模式，�
 
 通过时序图，展示了从用户发起播放命令到音乐输出的完整流程，包括用户界面如何与后端逻辑交互，以及网络模块如何响应音乐播放请求。
 
-文件路径：`src\UML_Time.PNG`
+文件路径：`src\UML_Time.png`
 
-![UML时序图](src\UML_Time.PNG)
+![UML时序图](src\UML_Time.png)
 
 
 
